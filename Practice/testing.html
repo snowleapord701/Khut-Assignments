@@ -32,5 +32,86 @@
       <label for="">Select Favorite Color</label>
       <input type="color" name="color" id="color" />
     </div>
+    <div>
+      <label for="">Name: </label>
+      <input type="text" name="name" id="name" placeholder="Name" required />
+    </div>
+    <div>
+      <label for="gender">I'am </label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label for="about">About me</label>
+      <br />
+      <textarea
+        name="about"
+        id="about"
+        cols="50"
+        rows="10"
+        placeholder="I'am a ..."
+        minlength="10"
+        maxlength="100"
+        readonly
+      >
+        Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Labore aut ipsum quaerat, et, adipisci ipsam id, explicabo alias
+         nihil consectetur velit autem. Sunt, illum quidem id error veniam esse sapiente.</textarea
+      >
+    </div>
+
+    <form action="/" method="javascript:void(0)">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <button
+          type="submit"
+          style="
+            background-color: darkgoldenrod;
+            color: white;
+            font-size: 24px;
+            padding: 2px;
+            margin: 10px;
+            border: 1px solid black;
+          "
+        >
+          Submit
+        </button>
+        <button
+          type="reset"
+          style="
+            background-color: darkgoldenrod;
+            color: white;
+            font-size: 24px;
+            padding: 2px;
+            margin: 10px;
+            border: 1px solid black;
+          "
+        >
+          Reset
+        </button>
+      </div>
+      <div>
+        <label for="brand">Select a brand</label>
+        <input type="text" name="brand" id="brand" list="brands" />
+
+        <datalist id="brands">
+          <option value="Real">1</option>
+          <option value="DGK">2</option>
+          <option value="Black Label">3</option>
+          <option value="World Industries">4</option>
+          <option value="Darkroom">5</option>
+        </datalist>
+      </div>
+    </form>
   </body>
 </html>
