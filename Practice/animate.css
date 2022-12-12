@@ -1,0 +1,46 @@
+@keyframes moveAround {
+    0%, 100% {
+        top: 0px;
+        left: 0px;
+        background-color: red;
+    }
+    25% {
+        top: 0px; 
+        left: 200px;
+    }
+    50% {
+        top: 200px;
+        left: 200px;
+        background-color: purple;
+        border-radius: 100px;
+    }
+    75% {
+        top: 200px;
+        left: 0;
+    }
+    
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    position: relative;
+
+    animation: moveAround 4s ease-in-out infinite normal;
+}
+
+h1 {
+    transition:transform 1s ease-in;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    color: green;
+}
+
+
+h1:hover {
+    transform: rotate(45deg);
+}

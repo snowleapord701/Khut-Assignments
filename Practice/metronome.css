@@ -1,0 +1,44 @@
+.container {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 0 40px;
+    border-radius: 5px;
+    background-color: #1884FF;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.75);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+.box {
+    animation: pulse 1s ease-in-out 4;
+}
+
+.box1 {
+    animation-delay: 0.0s;
+}
+
+.box2 {
+    animation-delay: 0.125s;
+}
+
+.box3 {
+    animation-delay: 0.25s;
+}
+.box4 {
+    animation-delay: 0.5s;
+}
