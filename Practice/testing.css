@@ -1,0 +1,41 @@
+.one {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.two {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1::before {
+    content: "#";
+}
+
+.notification {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* .notification::before {
+    content: "3";
+    top: 5px;
+    font-size: 25px;
+    color: red;
+} */
+
+.notification ~ div {
+    value: "3";
+    top: 5px;
+    font-size: 25px;
+    color: red;
+}
