@@ -1,0 +1,76 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+body {
+  
+}
+
+
+/* #one {
+    text-align: center;
+    color: white;
+    background-color: #5173FC;
+}
+#two {
+    text-align: center;
+    color: white;
+    background-color: #fff3d4;
+}
+#three {
+    text-align: center;
+    color: white;
+    background-color: #a8b8e6;
+}
+#four {
+    text-align: center;
+    color: white;
+    background-color: #993c29;
+}
+#five {
+    text-align: center;
+    color: white;
+    background-color: #1a9967;
+}
+#six {
+    text-align: center;
+    color: white;
+    background-color: #ffa6da;
+} */
+/*  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) boxes will be added on 
+or taken off depending on the screen size, automaticall (respondsiveness) */
+.container {
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 200px 40px;
+ }
+ 
+ .header {
+     text-align: center;
+     color: white;
+     background-color: #5173FC;
+      grid-column: 1/ -1;   /* -1 means last column line */
+  }
+ 
+ .menu {
+     text-align: center;
+     color: white;
+     background-color: #fff3d4;
+     grid-column: 10 / -1;
+ }
+ 
+ .content {
+     text-align: center;
+     color: white;
+     background-color: #a8b8e6;
+     grid-column: 1 / 10;
+     grid-row: 2 / 3;
+ }
+ 
+ .footer {
+     text-align: center;
+     color: white;
+     background-color: #993c29;
+     grid-column: 1 / -1;
+ }
