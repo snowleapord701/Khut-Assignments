@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    grid-gap: 2px;
+}
+
+.container div {
+    background-color: grey;
+    padding: 20px;
+}

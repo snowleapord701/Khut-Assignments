@@ -1,0 +1,7 @@
+This modular will put everything in a folder.
+
+Use terminal.
+
+Type npx @name of the folder your at currently/js-app my-newProjectName
+press enter, watch it build.
+
