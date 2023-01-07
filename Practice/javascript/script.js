@@ -65,5 +65,5 @@ guitar['Color'] = 'Pearl';
 guitar['Type'] = 'electric';
 guitar['Strings'] = 6;
 
-console.log(guitar)
+console.log(guitar.Brand)
 
