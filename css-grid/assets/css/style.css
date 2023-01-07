@@ -1,0 +1,12 @@
+/* body {
+    background-color: blueviolet;
+} */
+div.image-gallery {
+    display: grid;
+    gap: 3px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(2, 400px); */
+    /* grid-template: repeat(2, 400px) / repeat(3, 1fr);         <---shorthand version, rows / columns */
+    grid-auto-rows: 300px;
+}
