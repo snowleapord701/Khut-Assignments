@@ -1,0 +1,22 @@
+
+/* Selects all <p> elements where the parent is a <form>	 */
+form > p {
+    color: blue;
+}
+
+/* Selects the first <input> element that is placed immediately after <label>  */
+label + input {
+    color: green;
+}
+
+
+/* Selects every <div> element that is preceded by a <form>  */
+form > div {
+    color: red;
+}
+
+/* Selects all elements with a type attribute with the value of text */
+
+
+/* Selects all elements with a type attribute */
+
